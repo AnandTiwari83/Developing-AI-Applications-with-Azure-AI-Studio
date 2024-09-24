@@ -12,7 +12,7 @@ In this lab, you will perform the following:
 ## Task 1: Design and Implement a Chat Flow
 Design and implement a chat flow using Azure AI Studio to interact with a deployed language model, test its functionality, and deploy it for production use.
 
-1. On the [Azure AI Studio](https://ai.azure.com/?tid=f9733b59-6ed1-4cb1-a5c4-55f5c0d6ad6f), under **Components**, select **Deployments (1)**. On the **Model deployments** page select **35-turbo (2)**.
+1. On the [Azure AI Studio](https://ai.azure.com/?tid=f9733b59-6ed1-4cb1-a5c4-55f5c0d6ad6f), under **Components**, select **Deployments (1)**. On the **Model deployments** page select **gpt-35-turbo (2)**.
 
    ![](./media/deployments(1).png)
 
@@ -71,7 +71,7 @@ Design and implement a chat flow using Azure AI Studio to interact with a deploy
 
    ![](./media/chatllm.png)
 
-1. You still need to connect the LLM node to your deployed model. In the LLM node section, for **Connection**, select the connection that was created for you when you created the AI hub. For **Api**, select **chat**. For **deployment_name**, select the **gpt-4** model you deployed. For **response_format**, select **{“type”:”text”}**.
+1. You still need to connect the LLM node to your deployed model. In the LLM node section, for **Connection**, select the connection that was created for you when you created the AI hub. For **Api**, select **chat**. For **deployment_name**, select the **gpt-35-turbo** model you deployed. For **response_format**, select **{“type”:”text”}**.
 
    ![](./media/travelchat(1).png)
 
